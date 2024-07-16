@@ -7,7 +7,7 @@ exports.up = async function (knex) {
     table.string('model', 100).notNullable()
     table.integer('milage').unsigned().notNullable()
     table.string('title', 100)
-    table.string('transmisson', 100)
+    table.string('transmission', 100)
 })
 };
 
